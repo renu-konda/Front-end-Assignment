@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Renu Konda</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li class="menu-btn"><div class="menu-btn_burger"></div></li>
+				<li class="heading">Renu Konda</li>
+			</ul>
+		</nav>
+		<ul id="menu">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#memes">Memes</a></li>
+			<li><a href="#contact">Contact Form</a></li>
+		</ul>
+	</header>
+	<div id="home">
+		<p>
+			<br>
+			<p class='first'>Hello!</p><p class="second">Welcome to my Website!</p><br><p class="hero">I am Renu&nbsp;Konda</p>I am currently pursuing B.Tech in Computer Science and Engineering at IIT&nbsp;Bombay.<br> I hail from Anantapur, Andhra Pradesh. I have finished my Intermediate in Sri Chaitanya Junior College, Vijayawada.
+		</p>
+	</div>
+	<div id="about">
+		<h1>About Me</h1>
+		<ul>
+			<li>I am one of those who love dancing, singing and fighting with sibling&#128523;.</li>
+			<li>I love spending time with my dear ones.</li>
+			<li>I am keen on exploring novel things.</li>
+			<li>I am kind of do it yourself type.</li>
+		</ul>
+	</div>
+	<div id="memes">
+		<h1>Some fun</h1>
+		<div class="container">
+			<div class="slides">
+				<img src="https://img.devrant.com/devrant/rant/r_1623625_vc1to.jpg" width="75%" height="350px">
+			</div>
+			<div class="slides">
+				<img src="https://lh3.googleusercontent.com/proxy/YPjnrAobHDiN-deA5nSbQ65h7a8HnN8HSYEjqhkuRwk_ERKouw0mPxtUzlmwfPFvwkOeRy6NYZUm5A7KwXwKu_NZflNZ2kDUUBr2SD8Zi5kLH2yjE0jvzo-nO7VJAQ0Qn4SA-tbXQDO8zt0dBcNSSFGHTuiq2rvARWPXQQ" width="75%" height="350px">
+			</div>
+			<div class="slides">
+				<img src="https://www.imcreator.com/blog/wp-content/uploads/2014/04/WebDesignMemes-2.jpg" width="75%" height="350px">
+			</div>
+			<a class='prev' onclick="plusSlides(-1)">&lt;</a>
+			<a class='next' onclick="plusSlides(1)">&gt;</a>
+		</div>
+	</div>
+	<div id='contact'>
+		<h1>Contact Form</h1>
+		<form action="https://formspree.io/mlepanoe" method="POST">
+	  		<label>
+	  			(*Necessary fields)<br>
+	    		Your Name*:<br>
+	    		<input type="text" name="name" required>
+	  		</label><br>
+	  		<label>
+	    		Your message*:<br>
+	    		<textarea name="message" required></textarea>
+	  		</label><br>
+			<label for="rating">Rate my Website</label><br>
+    		<select id="rating" name="rating">
+     		 	<option value="one">One</option>
+      			<option value="two">Two</option>
+      			<option value="three">Three</option>
+      			<option value="four">Four</option>
+      			<option value="five" selected="selected">Five</option>
+    		</select>
+    		<br>
+
+	  <!-- your other form fields go here -->
+
+	  		<button type="submit">Send</button>
+		</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
